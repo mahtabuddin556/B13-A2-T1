@@ -230,7 +230,7 @@ display: flex;
     display:grid;
     grid-template-columns:1fr 2fr ;
     grid-template-rows:1fr 2fr  ;
-    grid-template-rows:3fr  ;
+    /* grid-template-rows:  ; */
     gap: 40px;
     background-color: #351165;
    
@@ -306,15 +306,11 @@ display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    height: 100%;
+    width: 100%;
 
 }
-.logo{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-     
-  }
+
 
 
 .copyright{ 
@@ -322,14 +318,41 @@ display: flex;
     flex-direction: column;
     text-align: center;
     margin: 0 auto;
+    
 
   }
 
 
+.logo1{
+    display: flex;
 
+flex-wrap: wrap;
+    align-items: center;
+}
 
+.logo2{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
 
+.logo3{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.logo4{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.logo{
+    display:flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
 
+}
 
 
 
