@@ -55,4 +55,114 @@ background: var(--Linear, linear-gradient(47.64deg, rgba(247, 233, 63, 1),rgba(2
 height: 32px;
 }
 
+/* hero section */
+#hero{
+    background-image:url(assets/hero-bg.png);
+     background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+   width: 100%;
+   height: 100%;
+   aspect-ratio: 16 / 9;
+   border: solid #2b1449;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
 
+
+}
+.hero-center-img{
+
+     position: relative;
+    margin: 0,auto;
+    display: flex;
+    align-items: center;
+    bottom: 70px;
+    height:350px;
+    width:350px ;
+}
+
+
+.box-circle{
+ width: 100%;
+ z-index: 1;
+
+
+  }
+
+.box-microphone{
+    z-index: 2;
+    position:absolute;
+    left:110px ;
+
+  
+}
+
+.box-new{
+z-index: 3;
+  position: absolute;
+  left: 252px;
+  top: 12px;
+}
+/* herocontent */
+
+.hero-contant{
+    color: white;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+
+}
+.btn{
+    display: flex;
+    flex-direction: row;
+}
+.hero-contant h1{
+ font-size:l ;
+
+}
+.hero-contant p{
+    opacity: 80%;
+}
+.btn1{
+    justify-content: center;
+width: 135px;
+height: 44px;
+border-radius: 1000px;
+color: white;
+display: flex;
+flex-direction: row;
+align-items: center;
+gap: 4;
+border: none;
+ font-size: 15px;
+cursor: pointer;
+border-radius: 10000px;
+background: var(--Linear, linear-gradient(47.64deg, rgba(247, 233, 63, 1),rgba(251, 9, 180, 1),rgba(145, 0, 248, 1)));
+}
+.btn2{
+ justify-content: center;
+width: 135px;
+height: 44px;
+border-radius: 1000px;
+background-color: transparent;
+display: flex;
+flex-direction: row;
+align-items: center;
+gap: 4;
+border: 1px solid green;
+ font-size: 15px;
+ color: black;
+cursor: pointer;
+border-radius: 10000px;
+
+
+}
+
+.btn :hover{
+    color: #1A0B2E;
+}
